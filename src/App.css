@@ -1,5 +1,10 @@
 .App {
-  text-align: center;
+  background-image: url("./assets/img/pattern.jpg");
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 .App-logo {
@@ -26,6 +31,243 @@
 
 .App-link {
   color: #61dafb;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.align-center {
+  vertical-align: bottom;
+}
+
+section {
+  margin-left: 200px;
+  margin-right: 200px;
+  background-color: white;
+  position: relative;
+  top: 70px;
+  padding: 20px;
+  margin-bottom: 100px;
+}
+
+.container {
+  padding: 8px 16px;
+}
+
+.title {
+  padding-top: 16px;
+}
+
+.articles-item {
+  border-bottom: 1px solid grey;
+}
+
+.articles-title {
+  padding-left: 4px;
+}
+
+footer {
+  position: sticky;
+  bottom: 0;
+  margin-top: 16px;
+  padding: 4px;
+  background-color: #000;
+  color: #fff;
+}
+
+.row {
+  display: flex;
+  vertical-align: middle;
+  margin-bottom: 16px;
+}
+
+.ma-0 {
+  margin: 0 !important;
+}
+.ma-1 {
+  margin: 1px !important;
+}
+.ma-2 {
+  margin: 2px !important;
+}
+
+.mt-0 {
+  margin-top: 0px !important;
+}
+.mt-1 {
+  margin-top: 4px !important;
+}
+.mt-2 {
+  margin-top: 8px !important;
+}
+.mt-3 {
+  margin-top: 12px !important;
+}
+.mt-4 {
+  margin-top: 16px !important;
+}
+
+.pa-0 {
+  padding: 0 !important;
+}
+.pa-1 {
+  padding: 1px !important;
+}
+.pa-2 {
+  padding: 2px !important;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.col-1 {
+  width: 8.33%;
+}
+.col-2 {
+  width: 16.66%;
+}
+.col-3 {
+  width: 25%;
+}
+.col-4 {
+  width: 33.33%;
+}
+.col-5 {
+  width: 41.66%;
+}
+.col-6 {
+  width: 50%;
+}
+.col-7 {
+  width: 58.33%;
+}
+.col-8 {
+  width: 66.66%;
+}
+.col-9 {
+  width: 75%;
+}
+.col-10 {
+  width: 83.33%;
+}
+.col-11 {
+  width: 91.66%;
+}
+.col-12 {
+  width: 100%;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 4px;
+}
+
+.form-control {
+  width: 75%;
+  height: 30px;
+  font-size: 14px !important;
+  padding-left: 15px;
+  margin-left: 300px;
+}
+
+textarea.form-control {
+  height: 100px;
+}
+
+.form-checkbox {
+  margin-left: 0;
+}
+
+.label {
+  font-weight: bold;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.label-control input {
+  margin-right: 8px;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.dark {
+  background-color: #212121 !important;
+  color: #ffffff !important;
+}
+
+.dark a {
+  color: #ffffff !important;
+}
+
+
+
+.navbar {
+  background-color: #ffffff;
+  position: sticky;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar-brand {
+  height: 75px;
+}
+
+.navbar-left {
+  padding: 8px;
+  display: flex;
+  vertical-align: middle;
+}
+
+.navbar-right {
+  padding: 8px;
+  display: flex;
+  vertical-align: middle;
+}
+
+.navbar-left ul li {
+  float: left;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.navbar-left ul li a {
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.navbar-right ul li {
+  float: left;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.navbar-right ul li a {
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.errors {
+  border: 1px solid red !important;
 }
 
 @keyframes App-logo-spin {
